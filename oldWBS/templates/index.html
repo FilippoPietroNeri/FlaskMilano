@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/main.css')}}">
+    <title>Milano</title>
+</head>
+<body>
+    <a href="{{url_for('immagini')}}">Immagini monumenti</a>
+
+    <div class="container">
+        <h1>Milano</h1>
+        <p>Milano è una città vibrante del nord Italia, famosa per la sua attività finanziaria, commerciale e di moda, il suo patrimonio artistico (come la chiesa di Santa Maria delle Grazie con il "Cenacolo" di Leonardo), e il suo stile di vita all'avanguardia con negozi di lusso, ristoranti gourmet e vita notturna. È multiculturale e attrae visitatori da tutto il mondo.</p>
+        <img class="duomoimg" src="{{url_for('static', filename='/images/duomo.jpg')}}" />
+    </div>
+</body>
+</html>
