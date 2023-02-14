@@ -6,6 +6,13 @@
     <title>Milano - Immagini</title>
 </head>
 <body>
-    <img src="{{url_for('static', filename='images/image.jpg')}}"/>
+    <a href="{{url_for('homepage')}}">Torna Indietro</a>
+
+    <h1>4 Monumenti di Milano</h1>
+    <p>Sotto ci sono 4 monumenti di milano, cliccandoci ti poterà ad una breve descrizione.</p>
+    <a href="{{url_for('arcodellapace')}}"><img src="{{url_for('static', filename='images/arcodellapace.jpg')}}"/></a>
+    <a href="{{url_for('leonardodavinci')}}"><img src="{{url_for('static', filename='images/leonardo-da-vinci-s-horse.jpg')}}"/></a>
+    <a href="{{url_for('monumentoleonardo')}}"><img src="{{url_for('static', filename='images/monumento-a-leonardo.jpg')}}"/></a>
+    <a href="{{url_for('vittorioemanuele')}}"><img src="{{url_for('static', filename='images/vittorioemanuele.jpg')}}"/></a>
 </body>
 </html>
