@@ -19,6 +19,12 @@ def homepage():
 def immagini():
     return render_template('immagini.html')
 
+@app.route('/about', methods=['GET'])
+def about():
+    return render_template('about.html')
+
+@app.route('/')
+
 # Monumenti #
 @app.route('/monumenti/arcodellapace')
 def arcodellapace():
